@@ -1,6 +1,6 @@
-|sbAdapter für Fibaro HC3               | für sonnenBatterie Ec8.0 und Eco10.0 |
 |:-------------------------------------:|:------------------------------------:|
 |![sbAdapterLogo](sbAdapter-Icon.png)   |![sonnenLogo](sonnen.png)             |
+|sbAdapter für Fibaro HC3               |für sonnenBatterie Ec8.0 und Eco10.0  |
 
 # sonnenAdapter01 für Fibaro HC3
 QuickApp für die sonnenBatterie EC8.0 und Eco10.0
