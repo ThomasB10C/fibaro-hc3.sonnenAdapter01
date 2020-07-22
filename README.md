@@ -1,3 +1,5 @@
+
+
 ![sbAdapterLogo](sbAdapter-Icon.png) ![sonnenLogo](sonnen.png)
 
 # sonnenAdapter01 für Fibaro HC3
@@ -47,7 +49,7 @@ Für die Nutzung des sonnenAdapters01 ist ein Fibaro-SmartHome-System erforderli
 
 ## Ansichten
 ### Datenübersicht
-!
+![UebersichtDaten] ()
   
   
   
