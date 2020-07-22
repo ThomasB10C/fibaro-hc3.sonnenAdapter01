@@ -1,5 +1,3 @@
-
-
 ![sbAdapterLogo](sbAdapter-Icon.png) ![sonnenLogo](sonnen.png)
 
 # sonnenAdapter01 für Fibaro HC3
@@ -49,7 +47,8 @@ Für die Nutzung des sonnenAdapters01 ist ein Fibaro-SmartHome-System erforderli
 
 ## Ansichten
 ### Datenübersicht
-![Daten](sbAdapter-Datenübersicht.png "Datenübersicht")
+Die Datenübersicht wird in der QuickApp angezeigt, dort werden ausgewählte Leistungsdaten der sonnenBatterie als Livedaten angezeigt.
+![](sbAdapter-Datenübersicht.png "Datenübersicht")
   
   
   
