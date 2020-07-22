@@ -1,4 +1,4 @@
-|sbAdapter für Fibaro HC3               |für sonnenBatterie Ec8.0 und Eco10.0    |
+|sbAdapter für Fibaro HC3               |für sonnenBatterie Eco8.0 und Eco10.0    |
 |:-------------------------------------:|:------------------------------------:|
 |![sbAdapterLogo](sbAdapter-Icon.png)   |![sonnenLogo](sonnen.png)             |
 
@@ -11,9 +11,9 @@ Die QuickApp liest ausgewählte Betriebsdaten der sonnenBatterie über deren API
 ## Settings
 In den Variablen der QuickApp können die folgenden Parameter voreingestellt werden
 
-1. "**ip**" - IP-Adresse der sonnenBatterie
-2. "**wait**" - Schalter, damit kann die QuickApp in den Leerlauf versetzt werden (wait= 'yes')
-3. "**interval**" - Zeiteinstellung für den Abfragezyklus der Batteriedaten (interval= '60' steht für 60 Sekunden = 1 Minute)
+1. **ip** - IP-Adresse der sonnenBatterie
+2. **wait** - Schalter, damit kann die QuickApp in den Leerlauf versetzt werden (wait= 'yes')
+3. **interval** - Zeiteinstellung für den Abfragezyklus der Batteriedaten (interval= '60' steht für 60 Sekunden = 1 Minute)
 
 Hinweis: der Parameter <interval> wird im unteren Bereich aus 30 Sekunden begrenzt, damit die Batterie noch weitere Datenabfragen bedienen kann.
 
@@ -50,7 +50,7 @@ Für die Nutzung des sonnenAdapters01 ist ein Fibaro-SmartHome-System erforderli
 ## Ansichten
 **Datenübersicht**
 Die Datenübersicht wird in der QuickApp angezeigt, dort werden ausgewählte Leistungsdaten der sonnenBatterie als Livedaten angezeigt.
-![](sbAdapter-Datenübersicht.png "Datenübersicht")
+![dataview](sbAdapter-Datenübersicht.png "Datenübersicht")
   
   
   
