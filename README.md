@@ -49,9 +49,16 @@ Für die Nutzung des sonnenAdapters01 ist ein Fibaro-SmartHome-System erforderli
 
 ## Ansichten
 **Datenübersicht**
+
 Die Datenübersicht wird in der QuickApp angezeigt, dort werden ausgewählte Leistungsdaten der sonnenBatterie als Livedaten angezeigt.
 
 ![dataview](sbAdapter-Datenübersicht.png "Datenübersicht")
+
+**Globale Variablen**
+Die QuickApp speichert Im HC3 im zentralen Bereich für Variablen die aktuell ermittelten Werte von der sonnenBatterie ab.
+Voraussetzung dafür ist es, das vom Benutzer diese Variablen dort hinzugefügt werden. Dafür müssen die Varaiblennamen in der gleichen Schreibweise eingegeben werden, die hier vorgeben wurden.
+
+![viewglobaleVariablen](sbAdapter-Datenübersicht.png "Datenübersicht")
   
   
   
