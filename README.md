@@ -26,7 +26,7 @@ Die folgenden Livedaten werden von der QuickApp auch simultan im zentralen Berei
 
 **sbSystemstatus**
   Systemstatus der sonnenBatterie. 
-  Die Statuswerte <OnGrid> bzw.<OffGrid> werden aus der API übernommen.
+  Die Statuswerte *OnGrid* bzw.*OffGrid* werden aus der API übernommen.
 
 **sbProduction** 
   Erzeugung der Photovoltaikanlage in kWh zum Zeitpunkt der Datenabfrage
@@ -35,7 +35,7 @@ Die folgenden Livedaten werden von der QuickApp auch simultan im zentralen Berei
   Verbrauch in kWh zum Zeitpunkt der Datenabfrage
 
 **sbGridFeedIn*
-  Netzeinspeisung (**positiver Wert**) bzw. Netzbezug (**negativer Wert**) in kWh zum Zeitpunkt der Datenabfrage
+  Netzeinspeisung (**positiver Wert**) bzw. **Netzbezug** (**negativer Wert**) in kWh zum Zeitpunkt der Datenabfrage
 
 **sbPac_total**
   Ladung bzw. Entladung der sonnenBatterie in kWh zum Zeitpunkt der Datenabfrage. 
