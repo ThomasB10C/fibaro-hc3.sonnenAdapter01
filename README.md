@@ -15,7 +15,8 @@ Hinweis: der Parameter <interval> wird im unteren Bereich aus 30 Sekunden begren
 # Globale Variablen
 Die folgenden Livedaten werden von der QuickApp auch simultan im zentralen Bereich für globale Variablen abgespeichert. Damit wird die Möglichkeit geschaffen, die Werte bzw. die Zustandswerte der Variablen auch für Automatisierungen in Szenen zu verwenden.
 
-<sbTimeStamp>
+xxxx
+sbTimeStamp
   Zeitstempel für die letzte Messung.
   Der Zeitstempel zeigt das Datum in der Form <yyyy.mm.dd> und die Uhrzeit in der Form <hh:mm.ss> an  
 
