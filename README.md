@@ -61,14 +61,20 @@ Voraussetzung dafür ist es, das vom Benutzer diese Variablen dort hinzugefügt 
 
 ![viewGlobaleVariablen](sbAdapter-GlobaleVariablen650.png "Globale Variablen")
 
-
-
+Die folgenden globale Variablen sollte der Nutzer im Fibaro HC3 als globale variablen hinzufügen.
+1. **sbTimestamp** - Zeitstempel der letzten Datenabfrage
+2. **sbSystemStatus** - Systemstatus der Batterie
+3. **sbProduction** - Erzeugung der Photovoltaik-Anlage in kWh
+4. **sbConsumption** - Verbrauch des Hauses in kWh
+5. **GridFeedIn** - Einspeisung bzw. Bezug von Strom in kWh, ein negativer Wert steht für einen Strombezug aus dem öffentlichen Stromnetz bzw. der sonnen-Community.
+6. **sbPac_total** - Ladung bzw. Entladung der Batterie in kWh, ein negativer Wert steht für die Ladung der Batterie.
+7. **sbRSOC** - Dieser Wert zeigt den Ladestand der Batterie an; die Werte haben einen Bereich von 0% bis 100%.
 
 **QuickApp - lokale Variablen**
 
-xxxxx
+Innerhalb der QuickApp müssen unter **Variablen** mehrere Parameter für die Steurung der App eingegeben werden. Dort werden auch nochmals die Anlagenwerte als lokale Variablen angezeigt.
 
-![viewLokaleVariablen](sbAdapter-LokaleVariablen650.png "lokale Variablen")
+![viewLokaleVariablen](sbAdapter-lokaleParameterundDaten650.png "lokale Variablen")
 
 
 
