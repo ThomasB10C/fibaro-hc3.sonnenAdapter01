@@ -50,6 +50,7 @@ Für die Nutzung des sonnenAdapters01 ist ein Fibaro-SmartHome-System erforderli
 ## Ansichten
 **Datenübersicht**
 Die Datenübersicht wird in der QuickApp angezeigt, dort werden ausgewählte Leistungsdaten der sonnenBatterie als Livedaten angezeigt.
+
 ![dataview](sbAdapter-Datenübersicht.png "Datenübersicht")
   
   
