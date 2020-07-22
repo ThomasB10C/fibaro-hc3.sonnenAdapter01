@@ -58,6 +58,6 @@ Die Datenübersicht wird in der QuickApp angezeigt, dort werden ausgewählte Lei
 Die QuickApp speichert Im HC3 im zentralen Bereich für Variablen die aktuell ermittelten Werte von der sonnenBatterie ab.
 Voraussetzung dafür ist es, das vom Benutzer diese Variablen dort hinzugefügt werden. Dafür müssen die Varaiblennamen in der gleichen Schreibweise eingegeben werden, die hier vorgeben wurden.
 
-![viewGlobaleVariablen](sbAdapter-GlobaleVariablen450.png "Globale Variablen")
+![viewGlobaleVariablen](sbAdapter-GlobaleVariablen650.png "Globale Variablen")
   
   
