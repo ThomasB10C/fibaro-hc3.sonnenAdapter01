@@ -39,7 +39,7 @@ Die folgenden Livedaten werden von der QuickApp auch simultan im zentralen Berei
 ### sbSOC
   Ladezustand der sonnenBatterie in %. Der Ladezustand der Batterie greift auf die API-Daten zurück, der Wertebereich liegt zwischen 0% und 100%
   
-''xxxx''
+``xxxx
   
   
   
