@@ -20,32 +20,32 @@ Hinweis: der Parameter **interval** wird im unteren Bereich aus 30 Sekunden begr
 ## Globale Variablen
 Die folgenden Livedaten werden von der QuickApp auch simultan im zentralen Bereich für globale Variablen abgespeichert. Damit wird die Möglichkeit geschaffen, die Werte bzw. die Zustandswerte der Variablen auch für Automatisierungen in Szenen zu verwenden.
 
-**sbTimeStamp**
+1.**sbTimeStamp**
   Zeitstempel für die letzte Messung.
   Der Zeitstempel zeigt das Datum in der Form <yyyy-mm-dd> und die Uhrzeit in der Form <hh:mm.ss> an  
 
-**sbSystemstatus**
+2.**sbSystemstatus**
   Systemstatus der sonnenBatterie. 
   Die Statuswerte *OnGrid* bzw.*OffGrid* werden aus der API übernommen.
 
-**sbProduction** 
+3.**sbProduction** 
   Erzeugung der Photovoltaikanlage in kWh zum Zeitpunkt der Datenabfrage
 
-**sbConsumption** 
+4.**sbConsumption** 
   Verbrauch in kWh zum Zeitpunkt der Datenabfrage
 
-**sbGridFeedIn*
+5.**sbGridFeedIn*
   Netzeinspeisung (**positiver Wert**) bzw. **Netzbezug** (**negativer Wert**) in kWh zum Zeitpunkt der Datenabfrage
 
-**sbPac_total**
+6.**sbPac_total**
   Ladung bzw. Entladung der sonnenBatterie in kWh zum Zeitpunkt der Datenabfrage. 
   Bei **Ladung** der Batterie wird ein **negativer Wert** angezeigt, bei **Entladung** der Batterie wird ein **positiver Wert** angezeigt
 
-**sbRSOC**
+7.**sbRSOC**
   Ladezustand der sonnenBatterie in %. Der Ladezustand der Batterie greift auf die API-Daten zurück, der Wertebereich liegt zwischen 0% und 100%
   
 ## Voraussetzungen
-Für die Nutzung des sonnenAdapters01 ist ein Fibaro-SmartHome-System erforderlich. QuickApps sind Erweiterungen des Funktionsumfangs des Hubs, die als "Geräte" verwaltet werden.
+Für die Nutzung des sonnenAdapters01 ist ein Fibaro-SmartHome-System HC3 erforderlich. QuickApps sind Erweiterungen des Funktionsumfangs des Hubs, diese werden dort  als "Geräte" verwaltet.
 
 ## Ansichten
 **Datenübersicht**
@@ -57,11 +57,14 @@ Die Datenübersicht wird in der QuickApp angezeigt, dort werden ausgewählte Lei
 **Globale Variablen**
 
 Die QuickApp speichert Im HC3 im zentralen Bereich für Variablen die aktuell ermittelten Werte von der sonnenBatterie ab.
-Voraussetzung dafür ist es, das vom Benutzer diese Variablen dort hinzugefügt werden. Dafür müssen die Varaiblennamen in der gleichen Schreibweise eingegeben werden, die hier vorgeben wurden.
+Voraussetzung dafür ist es, das vom Benutzer diese Variablen dort hinzugefügt werden. 
+
+Dafür müssen die Variablennamen in der gleichen Schreibweise eingegeben werden, die hier vorgeben wurden.
 
 ![viewGlobaleVariablen](sbAdapter-GlobaleVariablen650.png "Globale Variablen")
 
-Die folgenden globale Variablen sollte der Nutzer im Fibaro HC3 als globale variablen hinzufügen.
+Die folgenden globalev Variablen sollte der Nutzer im Fibaro HC3 als globale variablen hinzufügen.
+
 1. **sbTimestamp** - Zeitstempel der letzten Datenabfrage
 2. **sbSystemStatus** - Systemstatus der Batterie
 3. **sbProduction** - Erzeugung der Photovoltaik-Anlage in kWh
