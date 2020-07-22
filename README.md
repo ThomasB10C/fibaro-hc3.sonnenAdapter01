@@ -49,7 +49,7 @@ Für die Nutzung des sonnenAdapters01 ist ein Fibaro-SmartHome-System erforderli
 
 ## Ansichten
 ### Datenübersicht
-![UebersichtDaten] ()
+![UebersichtDaten](sbAdapter-Datenübersicht.png)
   
   
   
