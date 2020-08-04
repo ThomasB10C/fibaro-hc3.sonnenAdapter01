@@ -52,7 +52,7 @@ Für die Nutzung des sonnenAdapters01 ist ein Fibaro-SmartHome-System HC3 erford
 
 Die Datenübersicht wird in der QuickApp angezeigt, dort werden ausgewählte Leistungsdaten der sonnenBatterie als Livedaten angezeigt.
 
-![dataview](/Images/sbAdapter-Datenübersicht450.png "Datenübersicht")
+![dataview](/Images/sbAdapter-LivedatenÜbersicht450.png "Datenübersicht")
 
 **Globale Variablen**
 
