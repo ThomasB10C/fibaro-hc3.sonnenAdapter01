@@ -97,4 +97,6 @@ Das folgende Bild zeigt ein Beispiel für eine grafische Blockszene, die gestart
 
 ![SampleSzene](/Images/SampleSzene450.png "Beispiel für eine Szene")
 
-Ein anderes Beispiel für eine sinnvolle Szene wäre die Übermittlung einer Nachricht, wenn die Batterie völlig leer ist oder die Batterie bereits am 2. Tag keinen Ladevorgang mehr durchgeführt hat, ob die PV-Anlage Strom erzeugt. Diese Automatisierung würde man in einer LUA-Szene aufbauen und ausführen lassen.
+Ein anderes Beispiel für eine sinnvolle Szene wäre die Übermittlung einer Nachricht, wenn die Batterie völlig leer ist oder die Batterie bereits am 2. Tag keinen Ladevorgang mehr durchgeführt hat, obwohl von der PV-Anlage Strom erzeugt wurde. 
+
+Diese Automatisierung würde man in einer LUA-Szene aufbauen und ausführen lassen.
