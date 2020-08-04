@@ -1,6 +1,6 @@
 |sbAdapter für Fibaro HC3               |für sonnenBatterie Eco8.0 und Eco10.0    |
 |:-------------------------------------:|:------------------------------------:|
-|![sbAdapterLogo](/Images/sbAdapter-Icon.png)   |![sonnenLogo](/Images/sonnen.png)             |
+|![sbAdapterLogo](/Images/sbAdapter-Icon.png)   |![sonnenLogo](/Images/sonnenLogo.png)             |
 
 # sonnenAdapter01 für Fibaro HC3
 QuickApp für die sonnenBatterie EC8.0 und Eco10.0
@@ -52,7 +52,7 @@ Für die Nutzung des sonnenAdapters01 ist ein Fibaro-SmartHome-System HC3 erford
 
 Die Datenübersicht wird in der QuickApp angezeigt, dort werden ausgewählte Leistungsdaten der sonnenBatterie als Livedaten angezeigt.
 
-![dataview](/Images/sbAdapter-Datenübersicht.png "Datenübersicht")
+![dataview](/Images/sbAdapter-Datenübersicht450.png "Datenübersicht")
 
 **Globale Variablen**
 
@@ -61,7 +61,7 @@ Voraussetzung dafür ist es, das vom Benutzer diese Variablen dort hinzugefügt 
 
 Dafür müssen die Variablennamen in der gleichen Schreibweise eingegeben werden, die hier vorgeben wurden.
 
-![viewGlobaleVariablen](/Images/sbAdapter-GlobaleVariablen650.png "Globale Variablen")
+![viewGlobaleVariablen](/Images/sbAdapter-GlobaleVariablen450.png "Globale Variablen")
 
 Die folgenden globalev Variablen sollte der Nutzer im Fibaro HC3 als globale variablen hinzufügen.
 
@@ -85,7 +85,7 @@ Die **Parameter** der QuickApp sind auf die folgenden Standardwerre eingestellt:
 
 3. **wait** = **no**. Mit diesem Parameter kann der Benutzer einen Wartezustand für die Datenabfrage aktivieren, die QuickApp fragt dann die Batterie nicht ab (eingebaut, weil im HC3 für QuickApps eine Schalter zum Deaktivieren der App fehlt, wodurch die App ständig läuft).
 
-![viewLokaleVariablen](/Images/sbAdapter-lokaleParameterundDaten650.png "lokale Variablen")
+![viewLokaleVariablen](/Images/sbAdapter-lokaleParameterundDaten450.png "lokale Variablen")
 
 ## Szenen und Automatisierungen
 
@@ -101,6 +101,6 @@ Also kann man jetzt bspw. bei dem Erreichen eines festlegbaren Erzeugungswertes 
 
 Das folgende Bild zeigt ein Beispiel für eine Szene, die gestartet (getriggert) wird, wenn die PV-Anlage abgeregelt wurde, bspw. bei dem Erreichen der 70% Grenze für die maximale Einspeisemenge in das öffentliche Stromnetz. Dafür werden die Leistungsdaten vom sonnenAdapter01 für die Produktion, die Einspeisung und die aktuellen Daten eines SolarEdge-Wechselrichters (seAdapter01) benutzt (Bedingung **If**). Sobald alle Bedingungen erfüllt sind (**Trigger, UND**), wird ein Verbraucher, hier ist es ein WallPlug, oder ein Verbaucher mit einer hohen Leistung angeschaltet(**Then**), gleichzeitig wird an den Anlagenbetreiber eine Mitteilung versendet, mit deren Hilfe der Anlagenbetreiber die Nachricht erhält, dass die PV-Anlage gerade abgeregelt worden ist. Welche Geräte nach Erfüllung der Bedingungen hinzu geschaltet werden, kann der Nutzer in der Szene frei festlegen.
 
-![SampleSzene](/Images/SampleSzene650.png "Beispiel für eine Szene")
+![SampleSzene](/Images/SampleSzene450.png "Beispiel für eine Szene")
 
 Ein anderes Beispiel für eine sinnvolle Szene wäre die Übermittlung einer Nachricht, wenn die Batterie völlig leer ist oder die Batterie bereits am 2. Tag keinen Ladevorgang mehr durchführt. Diese Automatisierung würde man in einer LUA-Szene aufbauen und ausführen lassen.
