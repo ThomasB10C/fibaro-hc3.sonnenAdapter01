@@ -20,31 +20,21 @@ Hinweis: der Parameter **interval** wird im unteren Bereich auf mindestens 60 Se
 ## Globale Variablen
 Die folgenden Livedaten werden von der QuickApp auch simultan im zentralen Bereich für globale Variablen abgespeichert. Damit wird die Möglichkeit geschaffen, die Werte bzw. die Zustandswerte der Variablen auch für Automatisierungen in Szenen zu verwenden.
 
-1. **sbTimeStamp**
-  Zeitstempel für die letzte Messung.
-  Der Zeitstempel zeigt das Datum in der Form <yyyy-mm-dd> und die Uhrzeit in der Form <hh:mm:ss> an  
+1. **sbTimeStamp** - Zeitstempel für die letzte Messung. Der Zeitstempel zeigt das Datum in der Form <yyyy-mm-dd> und die Uhrzeit in der Form <hh:mm:ss> an  
 
-2. **sbSystemstatus**
-  Systemstatus der sonnenBatterie. 
-  Die Statuswerte *OnGrid* bzw.*OffGrid* werden aus der API übernommen.
+2. **sbSystemstatus** - Systemstatus der sonnenBatterie. Die Statuswerte *OnGrid* bzw.*OffGrid* werden aus der API übernommen.
 
-3. **sbProduction** 
-  Erzeugung der Photovoltaikanlage in kWh zum Zeitpunkt der Datenabfrage
+3. **sbProduction** - Erzeugung der Photovoltaikanlage in kWh zum Zeitpunkt der Datenabfrage
 
-4. **sbConsumption** 
-  Verbrauch in kWh zum Zeitpunkt der Datenabfrage
+4. **sbConsumption** - Verbrauch in kWh zum Zeitpunkt der Datenabfrage
 
-5. **sbGridFeedIn**
-  Netzeinspeisung (**positiver Wert**) bzw. **Netzbezug** (**negativer Wert**) in kWh zum Zeitpunkt der Datenabfrage
+5. **sbGridFeedIn** - Netzeinspeisung (**positiver Wert**) bzw. **Netzbezug** (**negativer Wert**) in kWh zum Zeitpunkt der Datenabfrage
 
-6. **sbPac_total**
-  Ladung bzw. Entladung der sonnenBatterie in kWh zum Zeitpunkt der Datenabfrage. 
-  Bei **Ladung** der Batterie wird ein **negativer Wert** angezeigt, bei **Entladung** der Batterie wird ein **positiver Wert** angezeigt
+6. **sbPac_total** - Ladung bzw. Entladung der sonnenBatterie in kWh zum Zeitpunkt der Datenabfrage. Bei **Ladung** der Batterie wird ein **negativer Wert** angezeigt, bei **Entladung** der Batterie wird ein **positiver Wert** angezeigt
 
-7. **sbRSOC**
-  Ladezustand der sonnenBatterie in %. Der Ladezustand der Batterie greift auf die API-Daten zurück, der Wertebereich liegt zwischen 0% und 100%
+7. **sbRSOC** - Ladezustand der sonnenBatterie in %. Der Ladezustand der Batterie greift auf die API-Daten zurück, der Wertebereich liegt zwischen 0% und 100%
   
-## Voraussetzungen
+## Voraussetzunge
 Für die Nutzung des sonnenAdapters01 ist ein Fibaro-SmartHome-System HC3 erforderlich. QuickApps sind Erweiterungen des Funktionsumfangs des Hubs, diese werden dort  als "Geräte" verwaltet.
 
 ## Ansichten
