@@ -34,7 +34,7 @@ Die folgenden Livedaten werden von der QuickApp auch simultan im zentralen Berei
 
 7. **sbRSOC** - Ladezustand der sonnenBatterie in %. Der Ladezustand der Batterie greift auf die API-Daten zurück, der Wertebereich liegt zwischen 0% und 100%
   
-## Voraussetzunge
+## Voraussetzungen
 Für die Nutzung des sonnenAdapters01 ist ein Fibaro-SmartHome-System HC3 erforderlich. QuickApps sind Erweiterungen des Funktionsumfangs des Hubs, diese werden dort  als "Geräte" verwaltet.
 
 ## Ansichten
@@ -63,7 +63,7 @@ Die folgenden globalen Variablen sollte der Nutzer im Fibaro HC3 als globale var
 6. **sbPac_total** - Ladung bzw. Entladung der Batterie in kWh, ein negativer Wert steht für die Ladung der Batterie.
 7. **sbRSOC** - Dieser Wert zeigt den Ladestand der Batterie an; die Werte haben einen Bereich von 0% bis 100%.
 
-**QuickApp - lokale Variablen und Parameter**
+**Lokale Variablen und Parameter der QuickApp**
 
 Innerhalb der QuickApp müssen unter den **lokalen Variablen** mehrere Parameter für die Steurung der App eingegeben werden. Als lokale Variablen werden auch die vom sonnenAdapter ermittelten Anlagenwerte nochmals angezeigt.
 
