@@ -108,6 +108,8 @@ Diese Daten werden zur Anzeige gebracht und in den lokalen bzw. globalen Variabl
 
 Die folgenden API-Daten der Batterie werden verarbeitet:
 
+##### JSON
+
 ````
 {
 ...,
