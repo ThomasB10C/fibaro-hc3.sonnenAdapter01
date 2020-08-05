@@ -98,7 +98,7 @@ Das folgende Bild zeigt ein Beispiel für eine grafische Blockszene, die gestart
 
 Ein anderes Beispiel für eine sinnvolle Szene wäre die Übermittlung einer Nachricht, wenn die Batterie leer ist oder die Batterie bereits am 2. Tag keinen Ladevorgang mehr durchgeführt hat, obwohl an diesen Tagen von der PV-Anlage Strom erzeugt wurde. Diese Automatisierung würde man in einer LUA-Szene aufbauen und ausführen lassen.
 
-````http://<ip-sonnenBatterie>:8080/api/v1/status```
+````http://<ip-sonnenBatterie>:8080/api/v1/status````
 
 
 ````{
