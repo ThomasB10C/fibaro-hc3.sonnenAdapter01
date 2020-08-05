@@ -98,36 +98,29 @@ Das folgende Bild zeigt ein Beispiel für eine grafische Blockszene, die gestart
 
 Ein anderes Beispiel für eine sinnvolle Szene wäre die Übermittlung einer Nachricht, wenn die Batterie leer ist oder die Batterie bereits am 2. Tag keinen Ladevorgang mehr durchgeführt hat, obwohl an diesen Tagen von der PV-Anlage Strom erzeugt wurde. Diese Automatisierung würde man in einer LUA-Szene aufbauen und ausführen lassen.
 
+## API-Schnittstelle der sonnenBatterie
+
+Die QuickApp sonnenAdapter1 nutzt die folgende Abfragesyntax zur zyklischen Erfassung der Livedaten der sonnenBatterie:
+
 ````http://<ip-sonnenBatterie>:8080/api/v1/status````
 
+Diese Daten werden zur Anzeige gebracht und in den lokalen bzw. globalen Variablen als Momentanwerte gespeichert; eine Langzeitspeicherung der Daten, bspw. in einer Datenbank, erfolgt nicht.
+
+Die folgenden API-Daten der Batterie werden verarbeitet:
 
 ````
 {
-"Apparent_output":1035,
-"BackupBuffer":"0",
-"BatteryCharging":true,
-"BatteryDischarging":false,
+...,
 "Consumption_W":358,
-"Fac":50.027999877929688,
-"FlowConsumptionBattery":false,
-"FlowConsumptionGrid":false,
-"FlowConsumptionProduction":true,
-"FlowGridBattery":false,
-"FlowProductionBattery":true,
-"FlowProductionGrid":true,
+...,
 "GridFeedIn_W":5065,
-"IsSystemInstalled":1,
-"OperatingMode":"2",
+...,
 "Pac_total_W":-1031,
 "Production_W":6458,
 "RSOC":58,
-"Sac1":348,
-"Sac2":343,
-"Sac3":344,
+...,
 "SystemStatus":"OnGrid",
 "Timestamp":"2020-08-05 13:18:30",
-"USOC":56,
-"Uac":234,
-"Ubat":54
+...
 }
 ````
