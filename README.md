@@ -74,7 +74,7 @@ Die **Parameter** der QuickApp sind auf die folgenden Standardwerte voreingestel
 
 4.**globaleValues** = **no**. Dieser Parameter kann auf **yes** gestellt werden, wenn der Nutzer die Speicherung der Livedaten im zentralen Bereich den globalen Variablen herbeiführen möchte und vorher diese Variablen dort hinzugefügt hat.
 
-![viewLokaleVariablen](/Images/sbAdapter-lokaleParameterundDaten450.png "lokale Variablen")
+![viewlokaleVariablen](/Images/sbAdapter-lokaleParameterundDaten450mask.png "lokale Variablen")
 
 ## Szenen und Automatisierungen
 
