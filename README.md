@@ -72,7 +72,7 @@ Die **Parameter** der QuickApp sind auf die folgenden Standardwerte voreingestel
 
 3. **wait** = **no**. Mit diesem Parameter kann der Benutzer den Wartezustand für die Datenabfrage aktivieren, die QuickApp fragt dann die Batteriedaten nicht mehr ab (diese Funktion wurde eingebaut, weil im HC3 ein Schalter zum Deaktivieren der QuickApp fehlt, wodurch die App ständig läuft).
 
-4.**globaleValues** = **no**. Dieser Parameter kann auf **yes** gestellt werden, wenn der Nutzer die Speicherung der Livedaten im zentralen Bereich den globalen Variablen herbeiführen möchte und vorher diese Variablen dort hinzugefügt hat.
+4. **globaleValues** = **no**. Dieser Parameter kann auf **yes** gestellt werden, wenn der Nutzer die Speicherung der Livedaten im zentralen Bereich den globalen Variablen herbeiführen möchte und vorher diese Variablen dort hinzugefügt hat.
 
 ![viewlokaleVariablen](/Images/sbAdapter-lokaleParameterundDaten450mask.png "lokale Variablen")
 
