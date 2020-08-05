@@ -97,3 +97,32 @@ Das folgende Bild zeigt ein Beispiel für eine grafische Blockszene, die gestart
 ![SampleSzene](/Images/SampleSzene450.png "Beispiel für eine Szene")
 
 Ein anderes Beispiel für eine sinnvolle Szene wäre die Übermittlung einer Nachricht, wenn die Batterie leer ist oder die Batterie bereits am 2. Tag keinen Ladevorgang mehr durchgeführt hat, obwohl an diesen Tagen von der PV-Anlage Strom erzeugt wurde. Diese Automatisierung würde man in einer LUA-Szene aufbauen und ausführen lassen.
+
+''{
+"Apparent_output":1035,
+"BackupBuffer":"0",
+"BatteryCharging":true,
+"BatteryDischarging":false,
+"Consumption_W":358,
+"Fac":50.027999877929688,
+"FlowConsumptionBattery":false,
+"FlowConsumptionGrid":false,
+"FlowConsumptionProduction":true,
+"FlowGridBattery":false,
+"FlowProductionBattery":true,
+"FlowProductionGrid":true,
+"GridFeedIn_W":5065,
+"IsSystemInstalled":1,
+"OperatingMode":"2",
+"Pac_total_W":-1031,
+"Production_W":6458,
+"RSOC":58,
+"Sac1":348,
+"Sac2":343,
+"Sac3":344,
+"SystemStatus":"OnGrid",
+"Timestamp":"2020-08-05 13:18:30",
+"USOC":56,
+"Uac":234,
+"Ubat":54
+}''
