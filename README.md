@@ -101,7 +101,8 @@ Ein anderes Beispiel für eine sinnvolle Szene wäre die Übermittlung einer Nac
 ````http://<ip-sonnenBatterie>:8080/api/v1/status````
 
 
-````{
+````
+{
 "Apparent_output":1035,
 "BackupBuffer":"0",
 "BatteryCharging":true,
@@ -128,4 +129,5 @@ Ein anderes Beispiel für eine sinnvolle Szene wäre die Übermittlung einer Nac
 "USOC":56,
 "Uac":234,
 "Ubat":54
-}````
+}
+````
