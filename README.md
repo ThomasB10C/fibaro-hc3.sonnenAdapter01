@@ -24,11 +24,11 @@ Die folgenden Livedaten werden von der QuickApp auch simultan im zentralen Berei
 
 2. **sbSystemstatus:** - Systemstatus der sonnenBatterie. Die Statuswerte *OnGrid* bzw.*OffGrid* werden aus der API übernommen.
 
-3. **sbProduction:** - Erzeugung der Photovoltaikanlage in kWh zum Zeitpunkt der Datenabfrage.
+3. **sbProduction:** - Erzeugung der Photovoltaikanlage in kW zum Zeitpunkt der Datenabfrage.
 
-4. **sbConsumption:** - Verbrauch in kWh zum Zeitpunkt der Datenabfrage.
+4. **sbConsumption:** - Verbrauch in kW zum Zeitpunkt der Datenabfrage.
 
-5. **sbGridFeedIn:** - Netzeinspeisung (**positiver Wert**) bzw. **Netzbezug** (**negativer Wert**) in kWh zum Zeitpunkt der Datenabfrage.
+5. **sbGridFeedIn:** - Netzeinspeisung (**positiver Wert**) bzw. **Netzbezug** (**negativer Wert**) in kW zum Zeitpunkt der Datenabfrage.
 
 6. **sbPac_total:** - Ladung bzw. Entladung der sonnenBatterie in kWh zum Zeitpunkt der Datenabfrage. Bei **Ladung** der Batterie wird ein **negativer Wert** angezeigt, bei **Entladung** der Batterie wird ein **positiver Wert** angezeigt.
 
@@ -54,10 +54,10 @@ Die folgenden globalen Variablen sollte der Nutzer im Fibaro HC3 als globale Var
 
 1. **sbTimestamp** - Zeitstempel der letzten Datenabfrage.
 2. **sbSystemStatus** - Systemstatus der Batterie.
-3. **sbProduction** - Erzeugung der Photovoltaik-Anlage in kWh.
-4. **sbConsumption** - Verbrauch des Hauses in kWh.
-5. **GridFeedIn** - Einspeisung bzw. Bezug von Strom in kWh, ein negativer Wert steht für einen Strombezug aus dem öffentlichen Stromnetz bzw. der sonnen-Community.
-6. **sbPac_total** - Ladung bzw. Entladung der Batterie in kWh, ein negativer Wert steht für die Ladung der Batterie.
+3. **sbProduction** - Erzeugung der Photovoltaik-Anlage in kW.
+4. **sbConsumption** - Verbrauch des Hauses in kW.
+5. **GridFeedIn** - Einspeisung bzw. Bezug von Strom in kW, ein negativer Wert steht für einen Strombezug aus dem öffentlichen Stromnetz bzw. der sonnen-Community.
+6. **sbPac_total** - Ladung bzw. Entladung der Batterie in kW, ein negativer Wert steht für die Ladung der Batterie.
 7. **sbRSOC** - Dieser Wert zeigt den Ladestand der Batterie an; die Werte haben einen Bereich von 0% bis 100%.
 
 **Lokale Variablen und Parameter der QuickApp**
