@@ -1,5 +1,5 @@
 -- sbAdpater1 V1.1
--- Adapter für die sonnenBatterie Ec0 8.0 und Eco10
+-- Adapter für die sonnenBatterie Eco8.0 und SB10
 -- QuickApp für das System Fibaro HC3
 -- Der Adapter fragt ausgewählte Daten der Batterie zyklisch ab und stellt diese in einer Anzeige, als lokale Variablen und als Globale Variablen zur Verfügung
 -- Copyright (C) 2020  Thomas Burchert, 10Consult
@@ -143,7 +143,7 @@ function QuickApp:readData(message)
 
                 -- Prepare data for inside QA-View
                 -- Daten für interne QA-Anzeige speichern
-  			    local vMessage = "------------- LIVEDATEN-ANZEIGE für Eco 8.0 / Eco 10 -------------"
+  			    local vMessage = "------------- LIVEDATEN-ANZEIGE für Eco 8.0 / SB 10 -------------"
 			    self:updateView("message", "text", vMessage)              
 
 			    local vTimestamp = "Zeit: " ..strTimestamp.." - Status: "..strSystemStatus.."!"
